@@ -47,3 +47,66 @@ head(CO2SouthPole)
 
 For the sake of the example, let's take the monthly data of 1988 and 1989 (only the month and the CO2 value). 
 
+Data from 1988/1989
+========================================================
+
+## 1988
+
+```
+   Month    CO2
+1      1 348.10
+2      2 348.54
+3      3 349.40
+4      4 349.70
+5      5 349.65
+6      6 349.80
+7      7 349.90
+8      8 350.38
+9      9 351.05
+10    10 350.96
+11    11 350.64
+12    12 350.29
+```
+***
+## 1989
+
+```
+   Month    CO2
+13     1 349.84
+14     2 349.88
+15     3 350.19
+16     4 350.30
+17     5 350.37
+18     6 351.14
+19     7 352.20
+20     8 352.50
+21     9 352.29
+22    10 352.15
+23    11 351.98
+24    12 351.66
+```
+
+
+
+Charts
+========================================================
+navigation: section
+
+
+
+![plot of chunk unnamed-chunk-5](Assignment6-figure/unnamed-chunk-5-1.png)
+***
+![plot of chunk unnamed-chunk-6](Assignment6-figure/unnamed-chunk-6-1.png)
+
+
+
+<style>
+  .p_iframe iframe{
+    width:90%;
+    height:576px;
+}
+</style>
+
+<div class="p_iframe">
+<iframe frameborder="0" seamless='seamless' scrolling=no src="plot.html"></iframe>
+</div>

@@ -36,3 +36,67 @@ head(CO2SouthPole)
 
 For the sake of the example, let's take the monthly data of 1988 and 1989 (only the month and the CO2 value). 
 
+Data from 1988/1989
+========================================================
+
+## 1988
+```{r echo = FALSE}
+data1988 = CO2SouthPole[(CO2SouthPole$Year==1988),c(2,3)]
+data1989 = CO2SouthPole[(CO2SouthPole$Year==1989),c(2,3)]
+data1988
+```
+***
+## 1989
+```{r echo=FALSE}
+data1989
+```
+
+
+
+Charts
+========================================================
+navigation: section
+
+```{r include=FALSE}
+library(plotly)
+library(ggplot2)
+```
+
+```{r echo=FALSE}
+y1988 = data1988$CO2
+y1989 = data1989$CO2
+
+df = data.frame(cbind(data1988$Month, data1988$CO2, data1989$CO2))
+colnames(df) = c('month','C88','C89')
+
+p88 = ggplot(data = df, aes(x=month, y=C88))+
+  theme_minimal()+
+  geom_point()
+
+#Faltan titulos, leyenda, colores, hacerlo lineas, ?Juntarlos?
+
+p88 = ggplotly(p88)
+p88
+```
+***
+```{r echo=FALSE}
+p89 = ggplot(data = df, aes(x=month, y=C89))+
+  theme_minimal()+
+  geom_point()
+
+p89 = ggplotly(p89)
+p89
+```
+
+
+
+<style>
+  .p_iframe iframe{
+    width:90%;
+    height:576px;
+}
+</style>
+
+<div class="p_iframe">
+<iframe frameborder="0" seamless='seamless' scrolling=no src="plot.html"></iframe>
+</div>
