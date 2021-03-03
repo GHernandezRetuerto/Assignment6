@@ -21,3 +21,18 @@ Some of these datasets include:
 1. ~~CO2SouthPole~~ (the one we are going to use)
 <li class='fragment fade-out'>Airlines</li>
 <li class='fragment fade-out'>AppleStock</li>
+
+The Dataset
+========================================================
+
+`CO2SouthPole` contains CO2 concentration measurements (in ppm) in a scientific settlement in Antarctica. 
+
+```{r}
+library(Stat2Data)
+
+data(CO2SouthPole)
+head(CO2SouthPole)
+```
+
+For the sake of the example, let's take the monthly data of 1988 and 1989 (only the month and the CO2 value). 
+
