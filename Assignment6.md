@@ -1,3 +1,9 @@
+
+
+```r
+require("revealjs")
+```
+
 <style>
 body {
     overflow: scroll;
@@ -112,9 +118,9 @@ class: chart
 
 
 
-![plot of chunk unnamed-chunk-5](Assignment6-figure/unnamed-chunk-5-1.png)
-***
 ![plot of chunk unnamed-chunk-6](Assignment6-figure/unnamed-chunk-6-1.png)
+***
+![plot of chunk unnamed-chunk-7](Assignment6-figure/unnamed-chunk-7-1.png)
 
 Dual Chart for Comparison
 ========================================================
@@ -123,7 +129,18 @@ class: chart
 The previous charts are almost wrong: x axis is numerical and cannot be interpreted easily, axis labels are too simple...
 Here we design a good barplot for the two years simultaneously. 
 
-<img src="Assignment6-figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="100%" />
+
+
+<style>
+  .p_iframe iframe {
+    width:100%;
+    height:576px;
+}
+</style>
+
+<div class="p_iframe">
+<iframe frameborder="0" seamless='seamless' scrolling=no src="plot.html"></iframe>
+</div>
 
 
 
