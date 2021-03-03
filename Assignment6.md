@@ -1,4 +1,17 @@
-Presentation Example - Stat2Data
+<style>
+body {
+    overflow: scroll;
+}
+</style>
+
+<style>
+  .chart .jreveal .state-background {
+  background: black;
+} 
+</style>
+
+
+Presentation - Stat2Data
 ========================================================
 author: Guillermo Hernandez
 date: 24-02-2021
@@ -6,6 +19,10 @@ autosize: true
 font-family: Helvetica
 css: style.css
 transition: fade
+
+<div align="bottom">
+<img src="uc3mLogo.jpg">
+</div>
 
 Stat2Data
 ========================================================
@@ -91,6 +108,7 @@ Data from 1988/1989
 Charts
 ========================================================
 navigation: section
+class: chart
 
 
 
@@ -98,15 +116,16 @@ navigation: section
 ***
 ![plot of chunk unnamed-chunk-6](Assignment6-figure/unnamed-chunk-6-1.png)
 
+Dual Chart for Comparison
+========================================================
+class: chart
+
+The previous charts are almost wrong: x axis is numerical and cannot be interpreted easily, axis labels are too simple...
+Here we design a good barplot for the two years simultaneously. 
+
+<img src="Assignment6-figure/unnamed-chunk-7-1.png" title="plot of chunk unnamed-chunk-7" alt="plot of chunk unnamed-chunk-7" width="100%" />
 
 
-<style>
-  .p_iframe iframe{
-    width:90%;
-    height:576px;
-}
-</style>
 
-<div class="p_iframe">
-<iframe frameborder="0" seamless='seamless' scrolling=no src="plot.html"></iframe>
-</div>
+
+
