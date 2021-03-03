@@ -1,9 +1,3 @@
-
-
-```r
-require("revealjs")
-```
-
 <style>
 body {
     overflow: scroll;
@@ -11,7 +5,7 @@ body {
 </style>
 
 <style>
-  .chart .jreveal .state-background {
+  .chart .state-background {
   background: black;
 } 
 </style>
@@ -118,9 +112,9 @@ class: chart
 
 
 
-![plot of chunk unnamed-chunk-6](Assignment6-figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-5](Assignment6-figure/unnamed-chunk-5-1.png)
 ***
-![plot of chunk unnamed-chunk-7](Assignment6-figure/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-6](Assignment6-figure/unnamed-chunk-6-1.png)
 
 Dual Chart for Comparison
 ========================================================
